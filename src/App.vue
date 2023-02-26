@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import View from './components/View.vue';
+  import myPokemon from './components/my-pokemon.vue';
 </script>
 
 <template>
@@ -8,7 +9,7 @@
   <View element="div">
     Hello from view
   </View>
-  
+  <myPokemon/>
 </template>
 
 <style scoped>

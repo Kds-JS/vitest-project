@@ -22,4 +22,9 @@ describe('View', () => {
       expect(view.nodeName).toBe("SPAN");
     });
 
+    it("snap shot matches", () => {
+      const wrapper = render(View, { props: { element: "div" } });
+      expect(wrapper).toMatchSnapshot();
+    });
+
 });
